@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>NieuwegeinAfvalStations</h1>
+<div id='map'></div>
+
+
+<script>
+    function initMap(){
+        //Map options
+        var options ={
+            zoom:14,
+            center:{lat:52.0248, lng:5.0918}
+
+        }
+
+        //New Map
+        var map =new
+        google.maps.Map(document.getElementById('map'),options);
+
+        //Listen for click on map
+        google.maps.event.addListener(map, 'click', function(event){
+            //Add marker
+            addMarker({coords:event.latLng});
+
+        });
+/*
+
+         // Add marker
+        var marker = new google.maps.Marker({
+            position:{lat:42.4668, lng:-70.9495},
+            map:map,
+            icon:"https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
+        });
+
+
+        // Info over de marker
+        var infoWindow = new google.maps.InfoWindow({
+
+            content:"<h1>Afvalcontainter1</h1>"
+
+        });
+
+        marker.addListener('click',function(){
+            infoWindow.open(map,marker);
+
+
+
+        });
+*/
+        // Array of markers
+        var markers =[{
+            coords: {lat:52.0248, lng:5.0918},
+            iconImage:"https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
+            content:'<p>Klik <a href="voedingswaarden.html"><b>Afvalstation1</b></a> Afval verkeerd gedumpt</p>',
+        },
+            {
+                coords: {lat:52.3676, lng:4.9041},
+                content:'<p>Klik <a href="voedingswaarden.html"><b>Afvalstation2</b></a> Afval verkeerd gedumpt</p>',
+            },
+            {
+                coords: {lat:52.055592052745375, lng:5.0810752424946734},
+                content:'<p>Klik <a href="voedingswaarden.html"><b>Afvalstation3</b></a> Afval verkeerd gedumpt</p>'
+
+            },
+            {
+                coords: {lat:52.04371723041050, lng:5.084485902468232},
+                content:'<p>Klik <a href="voedingswaarden.html"><b>Afvalstation5</b></a> Afval verkeerd gedumpt</p>'
+
+            },
+
+        ];
+
+        //Loop through markers
+        for (var i = 0; i <markers.length ; i++) {
+            //Add marker
+            addMarker(markers[i]);
+            
+        }
+
+
+         //Add Marker Function
+
+        function addMarker(props){
+            var marker = new google.maps.Marker({
+                position:props.coords,
+                map:map,
+                //icon:props.iconImage
+
+            });
+
+            //check for customicon
+            if(props.iconImage){
+
+            //set icon Image
+
+            marker.setIcon(props.iconImage)
+
+            }
+
+
+            // Check content
+            if(props.content){
+
+                var infoWindow = new google.maps.InfoWindow({
+
+                    content:props.content
+
+                });
+
+                marker.addListener('click',function(){
+                    infoWindow.open(map,marker);
+
+
+
+                });
+
+            }
+
+        }
+
+
+    }
+</script>
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALM32icZmn0gZNLlBoPj-vcd41d9A2cSU&callback=initMap"></script>
+
+
+</body>
+</html>

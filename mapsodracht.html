@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nieuwegein</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div id="map"></div>
+
+<script>
+    function initMap (){
+        var location = { lat:52.047728769517406, lng: 5.078060944605226};
+        var  map= new google.maps.Map(document.getElementById("map"),{
+            zoom: 4,
+            center: location
+        });
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+
+
+        });
+    }
+
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALM32icZmn0gZNLlBoPj-vcd41d9A2cSU&callback=initMap"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f251e00-a611-4244-b537-1781d798ded8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nTCq4WZgjh35AHh3RatSIIHkC5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Javascript/frontend-javascript-edhub-objects" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rachi\Novi IdeaProjects\Eindopdracht" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f251e00-a611-4244-b537-1781d798ded8" name="Default Changelist" comment="" />
+      <created>1611404880585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611404880585</updated>
+      <workItem from="1611404881819" duration="30151000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1060" y="74" key="FileChooserDialogImpl" timestamp="1611694917240">
+      <screen x="-1680" y="-186" width="1680" height="1010" />
+    </state>
+    <state x="-1060" y="74" key="FileChooserDialogImpl/0.0.1366.728/-1680.-186.1680.1010@-1680.-186.1680.1010" timestamp="1611694917240" />
+    <state x="-1339" y="-36" key="SettingsEditor" timestamp="1611415055496">
+      <screen x="-1680" y="-186" width="1680" height="1010" />
+    </state>
+    <state x="-1339" y="-36" key="SettingsEditor/0.0.1366.728/-1680.-186.1680.1010@-1680.-186.1680.1010" timestamp="1611415055496" />
+    <state x="-1588" y="-94" width="1496" height="826" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1611572981699">
+      <screen x="-1680" y="-186" width="1680" height="1010" />
+    </state>
+    <state x="-1588" y="-94" width="1496" height="826" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/-1680.-186.1680.1010@-1680.-186.1680.1010" timestamp="1611572981699" />
+    <state x="-1232" y="-34" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1611407132840">
+      <screen x="-1680" y="-186" width="1680" height="1010" />
+    </state>
+    <state x="-1232" y="-34" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728/-1680.-186.1680.1010@-1680.-186.1680.1010" timestamp="1611407132840" />
+    <state x="-1184" y="140" key="run.anything.popup" timestamp="1611415406161">
+      <screen x="-1680" y="-186" width="1680" height="1010" />
+    </state>
+    <state x="-1184" y="140" key="run.anything.popup/0.0.1366.728/-1680.-186.1680.1010@-1680.-186.1680.1010" timestamp="1611415406161" />
+    <state x="-1177" y="31" width="672" height="678" key="search.everywhere.popup" timestamp="1611615860552">
+      <screen x="-1680" y="-186" width="1680" height="1010" />
+    </state>
+    <state x="-1177" y="31" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1680.-186.1680.1010@-1680.-186.1680.1010" timestamp="1611615860552" />
+  </component>
+</project>
